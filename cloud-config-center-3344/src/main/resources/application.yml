@@ -8,10 +8,12 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:zzyybs/springcloud-config.git #GitHub上面的git仓库名字
+          uri: https://gitee.com/jvvuvuyfgd/springcloud-config.git #GitHub上面的git仓库名字
           ####搜索目录
           search-paths:
             - springcloud-config
+          username: jvvuvuyfgd
+          password: a1324977568
       ####读取分支
       label: master
 
